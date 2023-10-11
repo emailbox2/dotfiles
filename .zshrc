@@ -99,10 +99,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-
-# Setting nvim path
-NVIM_PATH=/usr/local/bin/nvim
-
 # Nvim path should be set in config file
     if [ -f $NVIM_PATH ]; then
     alias vim=${NVIM_PATH}
