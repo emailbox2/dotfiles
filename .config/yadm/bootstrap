@@ -7,3 +7,6 @@ export PATH=$HOME/.local/bin:$PATH
 echo "Init submodules"
 yadm submodule update --recursive --init
 
+
+echo "Continue installs"
+source $HOME/.scripts/install_continue.sh
