@@ -8,5 +8,8 @@ echo "Init submodules"
 yadm submodule update --recursive --init
 
 
+ln -s $HOME/zsh_custom/themes/spaceship-prompt/spaceship.zsh-theme $HOME/zsh_custom/themes/spaceship.zsh-theme
+
+
 echo "Continue installs"
 source $HOME/.scripts/install_continue.sh
